@@ -8,15 +8,8 @@ function init(){
   alert('Blake Odette: '+input.value);
  });
  
- 
- 
- 
- 
-
-
-
-
-
-
-
+ button.addEventListener('click',function() {
+  output.innerHTML = input.value;
+ });
+} 
 window.addEventListener('load', init);
